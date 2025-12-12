@@ -1,20 +1,20 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-pay-scoop-plugin';
+// import { Text, View, StyleSheet } from 'react-native';
+// import { multiply } from 'react-native-pay-scoop-plugin';
 
-const result = multiply(3, 7);
+// const result = multiply(3, 7);
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
-  );
-}
+// export default function App() {
+//   return (
+//     <View style={styles.container}>
+//       <Text>Result: {result}</Text>
+//     </View>
+//   );
+// }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });

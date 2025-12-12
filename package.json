@@ -73,9 +73,10 @@
     "eslint": "^9.35.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react-native": "^5.0.0",
     "jest": "^29.7.0",
     "lefthook": "^2.0.3",
-    "prettier": "^2.8.8",
+    "prettier": "^3.7.4",
     "react": "19.2.0",
     "react-native": "0.83.0",
     "react-native-builder-bob": "^0.40.13",
@@ -110,9 +111,13 @@
     ]
   },
   "codegenConfig": {
-    "name": "PayScoopPluginSpec",
+    "name": "RNPayScoopPluginSpec",
     "type": "modules",
     "jsSrcsDir": "src",
+    "outputDir": {
+      "ios": "ios/generated",
+      "android": "android/generated"
+    },
     "android": {
       "javaPackageName": "com.payscoopplugin"
     }
