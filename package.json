@@ -1,6 +1,6 @@
 {
   "name": "react-native-pay-scoop-plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Helps with intagration with payscoop gateway by providing a good interface to facilitate your payments",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -112,7 +112,7 @@
     ]
   },
   "codegenConfig": {
-    "name": "RNPayScoopPluginSpec",
+    "name": "PayScoopPluginSpec",
     "type": "modules",
     "jsSrcsDir": "src",
     "outputDir": {

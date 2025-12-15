@@ -11,7 +11,7 @@ import com.facebook.react.bridge.WritableNativeMap;
 import com.gtl.payscoopnativeplugin.components.PaymentPlugin;
 import com.gtl.payscoopnativeplugin.config.PaymentConfig;
 import com.gtl.payscoopnativeplugin.interfaces.PaymentCallback;
-import com.payscoopplugin.RNPayScoopPluginSpec;
+import com.payscoopplugin.PayScoopPluginSpec;
 
 // Import SDK classes for order creation
 import org.gtl.nativesdk.android.components.CreatePayScoopOrder;
@@ -22,7 +22,7 @@ import org.gtl.nativesdk.data.interfaces.PayScoopOrderCallback;
 import org.gtl.nativesdk.data.dto.order.orderResponse.PayScoopOrderResponseDTO;
 import org.gtl.nativesdk.data.dto.order.orderResponse.failedOrder.PayScoopErrorResponseDTO;
 
-public class PayScoopPluginModule extends RNPayScoopPluginSpec {
+public class PayScoopPluginModule extends PayScoopPluginSpec {
     public static final String NAME = "PayScoopPlugin";
     private ReactApplicationContext reactContext;
 
